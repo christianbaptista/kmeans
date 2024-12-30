@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kmeans"
+version = "0.1.0"
+description = ""
+authors = ["Christian Batista <me@christianbatista.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+pandas = "^2.2.3"
+nltk = "^3.9.1"
+matplotlib = "^3.10.0"
+scikit-learn = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
